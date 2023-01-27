@@ -1,0 +1,39 @@
+.article-service-heading {
+    div {
+        h6 {
+            width: 70%;
+            margin: 0 auto;
+            color: $secondary;
+        }
+    }
+}
+.article-contact{
+    h2 {
+        font-size: 2.2rem;
+        font-weight: 900;
+        text-align: center;
+    }
+    h5{
+        color: $secondary;
+        margin: {
+            top: 1rem;
+            bottom: 5rem;
+            left: auto;
+            right: auto;
+        }
+        width: 70%;
+        text-align: center;
+    }
+}
+
+.form-control {
+    height: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    border: 1px solid $secondary
+}
+.form-textarea {
+    font-size: 1.2rem;
+    border: 1px solid $secondary;
+    margin-bottom: 2rem;
+}
