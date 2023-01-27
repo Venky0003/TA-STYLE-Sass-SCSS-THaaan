@@ -1,0 +1,90 @@
+.about-hero {
+    background-color: $primary;
+    margin-top: 5.4rem;
+}
+.article-about-hero {
+    color: white;
+    h2 {
+        font-size: 2.8rem;
+        font-weight: 900;
+    }
+    h5 {
+        font-weight: 100;
+        margin-top: 1rem;
+    }
+}
+
+.about-box {
+    h6 {
+        color: $primary;
+        font-weight: 600;
+        font-size: 1.4rem;
+    }
+    h2 {
+        font-size: 2.6rem;
+        font-weight: 900;
+        line-height: 1.4;
+    }
+    p {
+        margin-top: 2rem;
+        color: $secondary;
+        font-size: 1.1rem;
+    }
+}
+.mission {
+    h4 {
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+    p {
+        margin-top: .6rem;
+        color: $secondary;
+        font-size: 1rem;
+    }
+}
+.mission-icons {
+    margin-top: 1.5rem;
+    a {
+        margin-top: 2rem;
+        font-size: 3.8rem;
+        color: black;
+    }
+}
+.about-teams {
+    background-color: rgb(248,249,250);
+}
+// .article-about-time {
+//     background-color: rgb(248,249,250);
+// }
+.box-team-shadow {
+    background-color: #fff;
+    // border: 1px solid $secondary;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.2);
+    h4 {
+        font-size: 1.4rem;
+        margin-top: 1rem;
+        font-weight: 600;
+    }
+    h6 {
+        margin-bottom: 2.5rem;
+        font-size: .85rem;
+        color: $primary;
+        font-weight: 500;
+    }
+}
+.article-about-teams-heading {
+    h2 {
+        font-size: 2.6rem;
+        font-weight: 900;
+    }
+    h5 {
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-bottom: 3rem;
+    }
+}
+.article-solutions {
+    .btn-tertiary {
+        background-color: $primary;
+    }
+}
