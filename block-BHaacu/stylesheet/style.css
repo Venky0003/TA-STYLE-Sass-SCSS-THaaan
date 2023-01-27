@@ -1,0 +1,840 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "Archivo", sans-serif;
+  font-weight: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1240px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.width-full {
+  width: 100%;
+}
+
+.width-80 {
+  width: 80%;
+}
+
+.width-70 {
+  width: 70%;
+  margin-top: 4rem;
+}
+
+.width-60 {
+  width: 60%;
+}
+
+.width-10 {
+  width: 10%;
+}
+
+.width-20 {
+  width: 20%;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.center {
+  text-align: center;
+}
+
+.margin-left {
+  margin-left: 1rem;
+}
+
+.margin-top {
+  margin-top: 2.5rem;
+}
+
+.margin-bottom {
+  margin-bottom: 2.5rem;
+}
+
+.padding-top {
+  padding-top: 1rem;
+}
+
+.btn {
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 0 32px;
+  font-size: 16px;
+  border-radius: 32px;
+  text-decoration: none;
+  color: white;
+}
+.btn-primary {
+  background-color: rgb(220, 60, 69);
+  padding: 6px 18px;
+}
+.btn-secondary {
+  color: rgb(220, 60, 69);
+  border: 1px solid rgb(220, 60, 69);
+  padding: 6px 20px;
+}
+.btn-tertiary {
+  color: white;
+  border: 1px solid white;
+  background-color: rgb(220, 60, 69);
+}
+
+.flex-10 {
+  flex: 0 1 10%;
+}
+
+.flex-30 {
+  flex: 0 1 30%;
+}
+
+.flex-20 {
+  flex: 0 1 23%;
+}
+
+.flex-30 {
+  flex: 0 1 30%;
+}
+
+.flex-40 {
+  flex: 0 1 40%;
+}
+
+.flex-45 {
+  flex: 0 1 45%;
+}
+
+.flex-48 {
+  flex: 0 1 48%;
+}
+
+.flex-50 {
+  flex: 0 1 50%;
+}
+
+.flex-55 {
+  flex: 0 1 55%;
+}
+
+.flex-80 {
+  flex: 0 1 80%;
+}
+
+.flex-85 {
+  flex: 0 1 85%;
+}
+
+.flex-88 {
+  flex: 0 1 88%;
+}
+
+.flex-100 {
+  flex: 0 1 100%;
+}
+
+.sec-header {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.box {
+  border: 1px solid rgb(167, 172, 177);
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.bg-color {
+  background-color: rgb(248, 249, 250);
+}
+
+#toggle, .bars {
+  display: none;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+.nav-media {
+  background-color: rgb(220, 60, 69);
+  height: 2rem;
+  font-size: 0.8rem;
+}
+
+.nav-media-links a {
+  color: white;
+}
+
+.text-white {
+  color: white;
+}
+
+.navbar {
+  padding: 0.65rem 0;
+  background-color: rgb(236, 234, 234);
+}
+
+.nav-menu {
+  height: 4rem;
+}
+.nav-menu li {
+  margin-left: 2rem;
+}
+.nav-menu li a {
+  color: black;
+}
+
+.brand {
+  font-size: 1.8rem;
+  color: rgb(220, 60, 69);
+  font-weight: 900;
+}
+.brand span {
+  text-transform: capitalize;
+  color: black;
+}
+
+.sub-menu {
+  position: relative;
+  z-index: 10;
+}
+.sub-menu .drop-down {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  width: 6rem;
+  text-align: left;
+  left: 65%;
+  transform: translateX(-50%);
+  top: 55px;
+  z-index: 10;
+  font-size: 0.9rem;
+  background-color: rgb(248, 249, 250);
+}
+
+.sub-menu:hover .drop-down {
+  display: inline-block;
+}
+
+.drop-down li {
+  margin-left: 0.5rem;
+  margin-top: 0.35rem;
+  margin-bottom: 0.35rem;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../assets/media/banner-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 4.5rem;
+}
+
+.article-hero {
+  padding-top: 18rem;
+}
+.article-hero h1 {
+  font-size: 3.6rem;
+  font-weight: 900;
+  line-height: 1.2;
+}
+.article-hero h6 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.article-hero .btn-primary {
+  font-size: 0.9rem;
+  font-weight: 100;
+  margin-left: 0rem;
+  margin-top: 1rem;
+}
+
+.article-services h2, .article-solutions h2 {
+  font-size: 2.4rem;
+  font-weight: 900;
+}
+.article-services h5, .article-solutions h5 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: rgb(167, 172, 177);
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+.article-services a, .article-solutions a {
+  margin-top: 2.5rem;
+}
+
+.service-img {
+  width: 20%;
+}
+
+.services-list {
+  margin-top: 5rem;
+}
+.services-list img {
+  margin-top: 2rem;
+}
+.services-list h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.services-list p {
+  color: rgb(167, 172, 177);
+  margin-top: 1rem;
+}
+.services-list a {
+  margin-top: 1.8rem;
+}
+
+.solutions {
+  background-color: rgb(248, 249, 250);
+}
+
+.article-solutions {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.consulting-box-one img {
+  width: 10%;
+}
+.consulting-box-one h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 1rem auto;
+  width: 80%;
+}
+.consulting-box-one h5 {
+  font-size: 1rem;
+  color: rgb(167, 172, 177);
+}
+.consulting-box-one a {
+  margin-top: 1.5rem;
+}
+
+.consulting-box-two img {
+  width: 100%;
+}
+
+.quote {
+  background-color: rgb(220, 60, 69);
+}
+
+.article-quote h3 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.article-quote h6 {
+  font-size: 0.9rem;
+  color: white;
+  font-weight: 200;
+  margin-top: 0.5rem;
+}
+
+.industry-box h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-right: 4rem;
+  margin-top: 5rem;
+}
+.industry-box p {
+  margin-right: 3.8rem;
+  margin-top: 1.5rem;
+  color: rgb(167, 172, 177);
+  font-size: 0.9rem;
+}
+
+.clients {
+  background-color: rgb(248, 249, 250);
+}
+
+.article-client h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.article-client img {
+  width: 10%;
+  opacity: 0.5;
+  filter: grayscale(90%);
+  transition: all 0.2ms ease-in-out;
+}
+
+footer {
+  background-color: black;
+  opacity: 0.8;
+}
+
+.address {
+  color: rgb(167, 172, 177);
+}
+.address h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.address address {
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.address p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.nav-links-footer {
+  color: rgb(167, 172, 177);
+}
+.nav-links-footer h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.nav-links-footer li {
+  margin-top: 1rem;
+}
+.nav-links-footer li a {
+  color: rgb(167, 172, 177);
+}
+
+.rights-footer {
+  color: rgb(167, 172, 177);
+  margin-top: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+  .container {
+    width: 740px;
+  }
+  .nav-media {
+    padding-bottom: 2.5rem;
+  }
+  .navbar {
+    background-color: rgb(236, 234, 234);
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .nav-main-menu {
+    display: none;
+    height: 50vh;
+    width: 100vw;
+    padding-top: 12rem;
+  }
+  #toggle:checked ~ .nav-main-menu {
+    display: inline-block;
+  }
+  .bars {
+    font-size: 1.8rem;
+    color: white;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: rgb(220, 60, 69);
+    display: inline-block;
+    text-align: center;
+    right: 2rem;
+  }
+  .brand, .bars {
+    position: fixed;
+    top: 3.2rem;
+    z-index: 99;
+  }
+  .brand {
+    left: 2rem;
+  }
+  .md-flex {
+    display: flex;
+  }
+  .md-justify-center {
+    justify-content: center;
+  }
+  .md-align-center {
+    align-items: center;
+  }
+  .md-wrap {
+    flex-wrap: wrap;
+  }
+  .md-column {
+    flex-direction: column;
+  }
+  .md-center {
+    text-align: center;
+  }
+  .md-flex-100 {
+    flex: 1 1 100%;
+  }
+  .md-flex-50 {
+    flex: 1 1 50%;
+  }
+  .md-flex-20 {
+    flex: 1 1 20%;
+  }
+  .md-flex-80 {
+    flex: 1 1 80%;
+  }
+  .md-flex-15 {
+    flex: 1 1 15%;
+  }
+  .md-top {
+    margin-top: 1rem;
+  }
+  .hero {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: 60%;
+  }
+  .consulting-box-one {
+    margin-bottom: 2rem;
+  }
+}
+.about-hero {
+  background-color: rgb(220, 60, 69);
+  margin-top: 5.4rem;
+}
+
+.article-about-hero {
+  color: white;
+}
+.article-about-hero h2 {
+  font-size: 2.8rem;
+  font-weight: 900;
+}
+.article-about-hero h5 {
+  font-weight: 100;
+  margin-top: 1rem;
+}
+
+.about-box h6 {
+  color: rgb(220, 60, 69);
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+.about-box h2 {
+  font-size: 2.6rem;
+  font-weight: 900;
+  line-height: 1.4;
+}
+.about-box p {
+  margin-top: 2rem;
+  color: rgb(167, 172, 177);
+  font-size: 1.1rem;
+}
+
+.mission h4 {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.mission p {
+  margin-top: 0.6rem;
+  color: rgb(167, 172, 177);
+  font-size: 1rem;
+}
+
+.mission-icons {
+  margin-top: 1.5rem;
+}
+.mission-icons a {
+  margin-top: 2rem;
+  font-size: 3.8rem;
+  color: black;
+}
+
+.about-teams {
+  background-color: rgb(248, 249, 250);
+}
+
+.box-team-shadow {
+  background-color: #fff;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.2);
+}
+.box-team-shadow h4 {
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+.box-team-shadow h6 {
+  margin-bottom: 2.5rem;
+  font-size: 0.85rem;
+  color: rgb(220, 60, 69);
+  font-weight: 500;
+}
+
+.article-about-teams-heading h2 {
+  font-size: 2.6rem;
+  font-weight: 900;
+}
+.article-about-teams-heading h5 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.article-solutions .btn-tertiary {
+  background-color: rgb(220, 60, 69);
+}
+
+.article-service-heading div h2 {
+  font-size: 2.8rem;
+  font-weight: 900;
+}
+.article-service-heading div h5 {
+  font-size: 1.4rem;
+  color: rgb(167, 172, 177);
+  margin-top: 1rem;
+}
+
+.product-box {
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+}
+.product-box h4 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.product-box p {
+  font-size: 1.1rem;
+  color: rgb(90, 90, 90);
+}
+
+.deals {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  background-color: rgb(220, 60, 69);
+}
+
+.deals-box h4 {
+  margin-right: 1rem;
+  color: white;
+  font-size: 1.4rem;
+}
+.deals-box h6 {
+  color: white;
+  font-size: 0.95rem;
+  font-weight: 100;
+  margin-top: 0.5rem;
+}
+
+.article-award h2 {
+  font-size: 2.4rem;
+  font-weight: 900;
+  text-align: center;
+}
+.article-award h5 {
+  font-size: 1.3rem;
+  color: rgb(167, 172, 177);
+  width: 60%;
+  margin: 1rem auto;
+}
+
+.pricing-heading {
+  width: 60%;
+  margin: 0 auto;
+  color: rgb(167, 172, 177);
+}
+
+.pricing-box h6 {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+}
+.pricing-box h2 {
+  margin-top: 1rem;
+  font-size: 2.6rem;
+  font-weight: 900;
+}
+.pricing-box h5 {
+  margin-top: 1rem;
+  color: rgb(167, 172, 177);
+}
+.pricing-box h4 {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+.pricing-box ul li {
+  margin-top: 0.85rem;
+}
+.pricing-box ul li a {
+  color: black;
+}
+
+.pricing-box .btn {
+  margin-top: 1.5rem;
+}
+
+.article-frequent h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+}
+.article-frequent h5 {
+  color: rgb(167, 172, 177);
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 6rem;
+}
+
+.frequent-box {
+  margin-bottom: 1.5rem;
+}
+.frequent-box h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.frequent-box p {
+  color: rgb(167, 172, 177);
+  margin-bottom: 1.25rem;
+}
+
+.product-box .circle {
+  font-size: 2.2rem;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  background-color: rgb(234, 232, 232);
+}
+.product-box .circle a {
+  color: rgb(220, 60, 69);
+}
+
+.article-service-heading div h6 {
+  width: 70%;
+  margin: 0 auto;
+  color: rgb(167, 172, 177);
+}
+
+.article-contact h2 {
+  font-size: 2.2rem;
+  font-weight: 900;
+  text-align: center;
+}
+.article-contact h5 {
+  color: rgb(167, 172, 177);
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: center;
+}
+
+.form-control {
+  height: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  border: 1px solid rgb(167, 172, 177);
+}
+
+.form-textarea {
+  font-size: 1.2rem;
+  border: 1px solid rgb(167, 172, 177);
+  margin-bottom: 2rem;
+}/*# sourceMappingURL=style.css.map */
